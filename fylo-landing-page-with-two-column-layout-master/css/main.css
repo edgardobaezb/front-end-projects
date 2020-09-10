@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Open Sans", sans-serif;
+	background-color: #f6f6fe;
+}
+img {
+	max-width: 100%;
+}
+a {
+	text-decoration: none;
+	color: #585989;
+}
+li {
+	list-style-type: none;
+}
+.btn {
+	display: block;
+	margin: 0 auto;
+	width: 75.8%;
+	height: 35px;
+	background-color: #3065f8;
+	color: #fff;
+	font-weight: 700;
+	font-family: "Raleway", sans-serif;
+	border-radius: 3px;
+	border-color: transparent;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: minmax(200px, auto);
+	max-width: 375px;
+	margin: 0 auto;
+}
+.input-grl {
+	display: block;
+	margin: 0 auto 1rem;
+	width: 75%;
+	height: 30px;
+	padding: 1rem;
+	border-radius: 2px;
+	border: 0.5px solid #070439;
+}
+header {
+	grid-column: 1 / -1;
+	grid-row: 1 / 2;
+	margin: 0 0 10rem 0;
+}
+header .flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0.5rem 0 5rem 0;
+}
+header .flex .header-img {
+	width: 35%;
+	padding: 1rem;
+}
+header .flex .header-ul {
+	display: flex;
+	flex-direction: row;
+}
+header .flex .header-ul .header-ul__li {
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	font-size: 0.75rem;
+	margin-right: 1.2rem;
+}
+header .intro .header__img {
+	display: block;
+	width: 85%;
+	margin: 1rem auto;
+}
+header .intro .header-heading {
+	font-family: "Raleway", sans-serif;
+	font-size: 1.6rem;
+	font-weight: 700;
+	text-align: center;
+	color: #070439;
+	line-height: 2.5rem;
+	margin: 0 0 1rem 0;
+	padding: 0 1rem;
+}
+header .intro .header-paragraph {
+	text-align: center;
+	font-size: 0.9rem;
+	padding: 0 2rem;
+	margin: 0 0 1rem 0;
+	color: #070439;
+	line-height: 1.5rem;
+}
+main {
+	grid-column: 1 / -1;
+	grid-row: 2 / 3;
+}
+main .first-content .first-content__img {
+	margin: 0 0 5rem 0;
+}
+main .first-content__heading {
+	text-align: center;
+	font-size: 1rem;
+	color: #070439;
+	font-weight: 700;
+	margin: 0 auto 1.5rem;
+	padding: 0 1.5rem;
+}
+main .first-content__first-paragraph,
+main .first-content__second-paragraph {
+	font-size: 0.85rem;
+	text-align: left;
+	padding: 0 1.7rem;
+	margin: 0 0 1rem 0;
+	line-height: 1.4rem;
+	color: #585989;
+}
+main .box-1 {
+	margin: 0 auto;
+}
+main .box-1 .first-content__link {
+	color: #3c9f8f;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+main .box-1 .arrow-icon {
+	width: 5.5%;
+	margin: 0;
+}
+main .box-1 .hr-one {
+	width: 47%;
+	color: #3c9f8f;
+	display: block;
+	margin: 0 auto;
+}
+main .testimonial {
+	width: 350px;
+	height: 250px;
+	margin: 2.5rem auto 5rem;
+	padding: 1.7rem;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1), -1px -1px 3px rgba(0, 0, 0, 0.1);
+	border-radius: 1px;
+	background-color: #f6f6fe;
+}
+main .testimonial .quote-icon {
+	width: 5%;
+	margin: 0;
+}
+main .testimonial .testimonial-paragraph {
+	text-align: justify;
+	text-align: left;
+	font-size: 0.8rem;
+	font-weight: 590;
+	word-spacing: 0.1rem;
+	line-height: 1.4rem;
+	color: #070439;
+}
+main .testimonial .person {
+	display: flex;
+	flex-direction: row;
+	margin: 0.8rem 0 0 0;
+}
+main .testimonial .person .kyle-burton-jpg {
+	width: 12%;
+	border-radius: 100%;
+	margin: 0;
+}
+main .testimonial .person .next-to {
+	margin: 0 0 0 0.5rem;
+}
+main .testimonial .person .next-to strong {
+	font-size: 0.8rem;
+}
+main .testimonial .person .next-to small {
+	font-size: 0.7rem;
+}
+aside {
+	grid-column: 1 / -1;
+	grid-row: 3 / 4;
+}
+aside .aside-content {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	background-color: #585989;
+}
+aside .aside-content .first-div .aside__heading {
+	margin-top: 3rem;
+	margin-bottom: 0;
+	text-align: center;
+	color: #fff;
+	font-family: "Raleway", sans-serif;
+	font-size: 1.2rem;
+}
+aside .aside-content .first-div .aside__paragraph {
+	margin-top: 1rem;
+	color: #fff;
+	text-align: center;
+	padding: 0 1.5rem;
+	font-weight: 400;
+}
+aside .aside-content .second-div .input-aside {
+	margin-top: 1rem;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1), -1px -1px -3px rgba(0, 0, 0, 0.1);
+	border-color: transparent;
+	width: 100%;
+}
+aside .aside-content .second-div .aside-btn {
+	margin-bottom: 4rem;
+	font-family: "Raleway", sans-serif;
+	font-size: 0.7rem;
+	width: 100%;
+}
+footer {
+	grid-column: 1 / -1;
+	grid-row: 4 / 5;
+	color: #fff;
+	background-color: #07153b;
+	padding: 3rem;
+}
+footer a {
+	color: #fff;
+}
+footer .container .first-seg {
+	margin: 0 0 3rem 0;
+}
+footer .container .first-seg .footer__paragraph {
+	margin: 0 0 1rem 0;
+}
+footer .container .first-seg .footer__img {
+	width: 70%;
+	margin: 1rem 0 2.5rem 0;
+}
+footer .container .first-seg .footer__phone,
+footer .container .first-seg .footer__mail {
+	margin: 0 1rem 0 0.5rem;
+	width: 7%;
+}
+footer .container .second-seg {
+	margin: 0 0 3rem 0;
+}
+footer .container .second-seg .footer__li {
+	margin: 0 0 0.9rem 0;
+}
+footer .container .third-seg {
+	margin: 0 0 3rem 0;
+}
+footer .container .third-seg .footer__li {
+	margin: 0 0 0.9rem 0;
+}
+footer .container .social-networks {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	margin: 3.5rem 0 0 0;
+}
+footer .container ul {
+	margin: 0 0.5rem;
+}
+footer .container ul img {
+	width: 100%;
+}
+@media screen and (min-width: 768px) {
+	body {
+		min-width: 768px;
+	}
+	.grid {
+		max-width: calc(100% - 100px);
+	}
+	header .flex .header-img {
+		width: 25%;
+	}
+	header .intro .input-header,
+	header .intro .btn-header {
+		width: 50%;
+	}
+	main .first-content .box-1 {
+		margin: 1rem;
+	}
+	main .first-content .box-1 .first-content__link .arrow-icon {
+		width: 3.5%;
+	}
+	main .first-content .box-1 .first-content__link .hr-one {
+		width: 30%;
+	}
+	main .first-content .testimonial {
+		width: 600px;
+	}
+	main .first-content .testimonial .quote-icon {
+		margin-bottom: 1rem;
+	}
+	main .first-content .testimonial .testimonial-paragraph {
+		margin-bottom: 2rem;
+	}
+	main .first-content .testimonial .person {
+		justify-content: center;
+	}
+	aside .aside-content .first-div .aside__heading {
+		margin-bottom: 1rem;
+	}
+	aside .aside-content .first-div .aside__paragraph {
+		padding: 0 1rem;
+		margin-bottom: 1rem;
+	}
+	aside .aside-content .second-div .input-aside,
+	aside .aside-content .second-div .aside-btn {
+		width: 400px;
+	}
+	footer .container {
+		text-align: center;
+	}
+	footer .container .first-seg .footer__img {
+		width: 40%;
+	}
+	footer .container .first-seg .footer__phone,
+	footer .container .first-seg .footer__mail {
+		width: 5%;
+	}
+}
+@media screen and (min-width: 1200px) {
+	body {
+		min-width: 1200px;
+	}
+	.grid {
+		grid-template-columns: 1fr 1fr;
+		grid-auto-rows: minmax(200px, auto);
+		width: calc(100% - 100px);
+		margin: 0 auto;
+	}
+	.grid header .flex .header-img {
+		width: 12%;
+	}
+	.grid header .flex .header-ul__li {
+		font-size: 1rem;
+		margin-right: 3rem;
+	}
+	.grid header .intro {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+		align-items: center;
+	}
+	.grid header .right {
+		grid-column: 2 / 3;
+	}
+	.grid header .left {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+	}
+	.grid header .header-heading,
+	.grid header .header-paragraph {
+		text-align: left;
+	}
+	.grid header .header-heading {
+		padding: 0 15rem 0 2rem;
+	}
+	.grid header .header-paragraph {
+		padding: 0 9rem 0 2rem;
+	}
+	.grid header .input-header,
+	.grid header .btn-header {
+		display: inline-block;
+		margin: 0 0 0 2rem;
+	}
+	.grid header .input-header {
+		width: 40%;
+	}
+	.grid header .btn-header {
+		width: 30%;
+		margin: 0 0 0 1rem;
+	}
+	.grid .first-content {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.grid .first-content__img {
+		grid-column: 2 / 3;
+	}
+	.grid .left-main {
+		grid-column: 1 / 2;
+		grid-row: 1 / 1;
+		justify-self: left;
+	}
+	.grid .left-main .first-content__heading {
+		font-size: 2rem;
+		text-align: left;
+		font-weight: 700;
+	}
+	.grid .left-main .first-content__first-paragraph,
+	.grid .left-main .first-content__second-paragraph {
+		font-size: 1rem;
+		padding: 0 5rem 0 1.5rem;
+	}
+	.grid .left-main .box-1 {
+		margin-left: 1.5rem;
+	}
+	.grid .left-main .box-1 .first-content__link {
+		display: inline;
+		margin: 0 0 0 0.2rem;
+	}
+	.grid .left-main .box-1 .first-content__link .arrow-icon {
+		width: 3%;
+	}
+	.grid .left-main .box-1 .first-content__link .hr-one {
+		display: block;
+		margin: 0;
+	}
+	.grid .left-main .testimonial {
+		width: 375px;
+		margin: 3rem 0 0 1.25rem;
+	}
+	.grid .left-main .testimonial .testimonial-paragraph {
+		padding-right: 2rem;
+	}
+	.grid .left-main .testimonial .person {
+		justify-content: start;
+	}
+	.grid aside .aside-content {
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+		align-items: center;
+		height: 300px;
+		margin: 1rem 0 0 0;
+	}
+	.grid aside .first-div .aside__heading {
+		text-align: left;
+		margin: 0 0 0 2rem;
+	}
+	.grid aside .first-div .aside__paragraph {
+		text-align: left;
+		margin: 2rem 0 0 2rem;
+		padding: 0 3rem 0 0;
+	}
+	.grid aside .second-div .aside-btn {
+		width: 50%;
+		margin: 0;
+	}
+	.grid footer .container {
+		display: flex;
+		justify-content: space-between;
+		align-content: center;
+	}
+}
